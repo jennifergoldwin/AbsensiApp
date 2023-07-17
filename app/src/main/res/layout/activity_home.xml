@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hello, User"
+            android:textSize="24dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/tv_name"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_below="@id/tv_name"
+            android:id="@+id/btn_absen"
+            android:layout_marginVertical="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A8D499 ">
+            <ImageView
+                android:id="@+id/img_history2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/pasien"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:layout_toRightOf="@id/img_history2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Klien Pasung"
+                android:textSize="20dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/pasung_bg"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

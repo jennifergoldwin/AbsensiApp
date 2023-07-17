@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627012570104",
+    "project_id": "absenapp-bb40f",
+    "storage_bucket": "absenapp-bb40f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627012570104:android:e99c90c798cbfc3ed4e40d",
+        "android_client_info": {
+          "package_name": "com.example.absensiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627012570104-cuitfg9gegls9fkjpncdt0pe01gfvfcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_l6LftR_qEvCReF2ITAXQW9aKLWtPwiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627012570104-cuitfg9gegls9fkjpncdt0pe01gfvfcp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

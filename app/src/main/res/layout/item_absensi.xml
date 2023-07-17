@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="24dp"
+    android:elevation="4dp"
+    app:cardCornerRadius="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_foto_item"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="100dp"
+            android:scaleType="centerCrop"
+            android:layout_height="120dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_toRightOf="@id/iv_foto_item"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_ket_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="Bebas pasung" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <TextView
+                android:id="@+id/tv_np_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Pendamping: WULU"/>
+            <TextView
+                android:id="@+id/tv_kab_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kabupaten: WULU"/>
+            <TextView
+                android:id="@+id/tv_nik_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIK: WULU"/>
+            <TextView
+                android:id="@+id/tv_nama_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama: WULU"/>
+            <TextView
+                android:id="@+id/tv_lokasi_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lokasi: WULU"/>
+            <TextView
+                android:id="@+id/tv_wktu_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Waktu Absen: WULU"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

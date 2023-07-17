@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Pendamping"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_nama_pendamping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="Name: Jessica"/>
+    <TextView
+        android:id="@+id/tv_kab_pendamping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="Name: Jessica"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Klien Pasung"
+        android:layout_marginTop="12sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="Name: Jessica"/>
+    <TextView
+        android:id="@+id/tv_nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="NIK: 2208920242"/>
+    <TextView
+        android:id="@+id/tv_tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:text="Tgl/Wkt: 22/09/2023 10:09"/>
+    <TextView
+        android:id="@+id/tv_ket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:minLines="1"
+        android:maxLines="10"
+        android:text="Keterangan: Jln. ABC"/>
+    <TextView
+        android:id="@+id/tv_ket_tambahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:minLines="1"
+        android:maxLines="10"
+        android:text="Keterangan: Jln. ABC"/>
+    <TextView
+        android:id="@+id/tv_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:minLines="1"
+        android:maxLines="10"
+        android:text="Lokasi: Jln. ABC"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_marginTop="12sp"
+        android:text="Foto Klien"/>
+    <ImageView
+        android:id="@+id/iv_klien"
+        android:layout_width="150dp"
+        android:layout_height="220dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Foto Dokumen"/>
+            <ImageView
+                android:id="@+id/iv_doc"
+                android:layout_width="150dp"
+                android:layout_height="220dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="12sp"
+                android:textSize="12sp"
+                android:text="Foto Kondisi Rumah"/>
+
+            <ImageView
+                android:id="@+id/iv_rumah"
+                android:layout_width="150dp"
+                android:layout_height="220dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
